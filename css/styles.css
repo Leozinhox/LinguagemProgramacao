@@ -32,3 +32,34 @@ button:hover {
     height: 130px;/* Altura */
     margin-bottom: 10px; /* Espaçamento externo abaixo */
 }
+.sidebar {
+    width: 200PX;
+    height: 100vh;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 20px;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+}
+.sidebar ul { 
+    list-style: none;
+    padding: 0;
+}
+.sidebar ul li {
+    margin: 8px;
+}
+.sidebar ul li a{
+    color: white;
+    text-decoration: none;
+    cursor:pointer;
+}
+.container { 
+    /* capacidade de um elementos crescer */
+    flex-grow: 1; 
+    padding: 20px;
+    margin-left: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}

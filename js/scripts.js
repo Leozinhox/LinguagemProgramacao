@@ -1,3 +1,3 @@
 function seguir(){
-    alert('Você agora está seguindo NEYMAR JR')
+    alert('Você está seguindo Jesus.')
 }
