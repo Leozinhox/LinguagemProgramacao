@@ -3,5 +3,12 @@ form{
     flex-direction: column;
 }
 label{
-    
+    display: flex;
+    margin-top: 10px;
+}
+input {
+    margin-top: 10px;
+}
+button {
+    margin-top: 12px;
 }
